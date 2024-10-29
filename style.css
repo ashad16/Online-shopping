@@ -1,0 +1,204 @@
+body {
+    font-family: poppins;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(71 56 176 / 90%);
+    font-weight: 700;
+    font-size: 25px;
+}
+.navcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(220 53 69);
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .testdiv {
+    text-align: center;
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}   
+.navbar-brand{
+    font-size: 30px;
+    font-family: poppins;
+}
+.row{
+    width: 100%;
+}
+.card{
+    margin: 20px;
+    transition: 2s;
+}
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+}
+.card h1{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card p{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.rating{
+    color: orange;
+}
+.bt{
+    color: white;
+    background-color:rgb(23, 23, 47);
+    border-radius: 30px;
+    border-color: black;
+    font-size:20px;
+    width: 50%;
+}
+.bu{
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn:hover{
+ background-color: green;
+}
+.footer{
+    background-image:linear-gradient(rgb(0, 0, 0),black) ;
+    padding: 70px 0;
+}
+.container{
+    max-width: 1170px;
+    /* background-color: blueviolet; */
+    margin: auto;
+}
+ul{
+ list-style: none;
+ display: inline;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 35px;
+    position: relative;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 80px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+   text-decoration: none;
+   color: aliceblue;
+   font-weight: 300;
+   font-size: 18px;
+   display: block;
+   transition: all 1.0s ease;
+}
+.footer-col ul li a:hover{
+    padding-left: 8px;
+    color:rgb(194, 226, 11) ;
+}
+.social-links{
+    border-radius: 50%;
+}
+.text h1{
+    text-align: center;
+    color: blue;
+    margin-top: 10px;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(images/contact\ us.jpg);
+    background-size: cover;
+}
+.contact .contact-text{
+    text-align: center;
+    max-width: 800px;
+}
+.contact .contact-text h1{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: poppins;
+    margin-top: -20px;
+}
+.count{
+    width: 100%;
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.count .contactinfo{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+.count .contactinfo .box{
+    position: relative;
+    display: flex;
+    padding: 20px 0;
+}
+
+.count .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+}
+.count .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    flex-direction: column;
+    font-weight: 300;
+}
+.count .contactinfo .box .text h3{
+    font-size: 18px;
+    color: white;
+}
+.contact-form{
+    width: 48%;
+    padding: 48px;
+    background: white;
+}
+.contact-form h
